@@ -31,16 +31,16 @@ const products = [
     {
         id: 2,
         name: "Apple AirPods Max - Gris Sidéral",
-        category: "AirPods",
+        category: "casque",
         price: 549,
         originalPrice: 599,
         rating: 4.8,
         reviewCount: 95,
-        image: "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?w=600&auto=format&fit=crop&q=80",
+        image: "airpods-max.png",
         gallery: [
-            "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?w=600&auto=format&fit=crop&q=80",
-            "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=600&auto=format&fit=crop&q=80",
-            "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=600&auto=format&fit=crop&q=80"
+            "airpods-max.png",
+            "sony-wf1000xm5.png",
+            "projct/les images/b_Luxury_social_media_.png"
         ],
         description: "Les AirPods Max combinent un audio haute fidélité avec la meilleure réduction active du bruit du marché pour offrir une expérience d'écoute inégalée. Chaque pièce de leur haut-parleur conçu sur mesure produit un son avec une distorsion ultra-faible.",
         specs: {
@@ -62,11 +62,11 @@ const products = [
         originalPrice: 299,
         rating: 4.7,
         reviewCount: 142,
-        image: "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=600&auto=format&fit=crop&q=80",
+        image: "sony-wf1000xm5.png",
         gallery: [
-            "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=600&auto=format&fit=crop&q=80",
-            "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?w=600&auto=format&fit=crop&q=80",
-            "https://images.unsplash.com/photo-1608156639585-b3a032ef9689?w=600&auto=format&fit=crop&q=80"
+            "sony-wf1000xm5.png",
+            "airpods-max.png",
+            "projct/les images/b_Luxury_social_media_.png"
         ],
         description: "Le WF-1000XM5 dispose d'une technologie de pointe pour offrir une qualité sonore supérieure et la meilleure performance de réduction de bruit sans fil du marché. Des processeurs audio en temps réel alimentent le transducteur conçu spécialement.",
         specs: {
@@ -88,10 +88,10 @@ const products = [
         originalPrice: 89,
         rating: 4.8,
         reviewCount: 320,
-        image: "https://images.unsplash.com/photo-1619489646924-b4fce76b7556?w=600&auto=format&fit=crop&q=80",
+        image: "projct/les images/b_Luxury_social_media_.png",
         gallery: [
-            "https://images.unsplash.com/photo-1619489646924-b4fce76b7556?w=600&auto=format&fit=crop&q=80",
-            "https://images.unsplash.com/photo-1622445262465-2481c4574875?w=600&auto=format&fit=crop&q=80"
+            "projct/les images/b_Luxury_social_media_.png",
+            "airpods-max.png"
         ],
         description: "Chargez un MacBook Pro 16 à 50% en seulement 28 minutes ou alimentez jusqu'à 3 devices simultanément avec notre chargeur GaNPrime ultra-compact de 120W. Le contrôle de température ActiveShield 2.0 protège vos appareils en continu.",
         specs: {
@@ -113,10 +113,10 @@ const products = [
         originalPrice: 149,
         rating: 4.6,
         reviewCount: 88,
-        image: "https://images.unsplash.com/photo-1622445262465-2481c4574875?w=600&auto=format&fit=crop&q=80",
+        image: "magsafe-station.jpg",
         gallery: [
-            "https://images.unsplash.com/photo-1622445262465-2481c4574875?w=600&auto=format&fit=crop&q=80",
-            "https://images.unsplash.com/photo-1619489646924-b4fce76b7556?w=600&auto=format&fit=crop&q=80"
+            "magsafe-station.jpg",
+            "airpods-max.png"
         ],
         description: "Alimentez tout votre écosystème Apple en même temps sur un support élégant. L'alignement magnétique MagSafe fournit une charge sans fil rapide de 15W à votre iPhone tout en chargeant votre Apple Watch et vos AirPods.",
         specs: {
@@ -138,10 +138,10 @@ const products = [
         originalPrice: 169,
         rating: 4.9,
         reviewCount: 215,
-        image: "https://images.unsplash.com/photo-1609592424109-dd7739504313?w=600&auto=format&fit=crop&q=80",
+        image: "charger-anker-120w.png",
         gallery: [
-            "https://images.unsplash.com/photo-1609592424109-dd7739504313?w=600&auto=format&fit=crop&q=80",
-            "https://images.unsplash.com/photo-1605787020600-b9ebd5df1d07?w=600&auto=format&fit=crop&q=80"
+            "charger-anker-120w.png",
+            "sony-wf1000xm5.png"
         ],
         description: "Équipée de la technologie Power Delivery 3.1 bidirectionnelle, cette batterie externe offre une charge ultra-puissante de 140W. Elle intègre un écran numérique intelligent affichant l'autonomie restante et la puissance d'entrée/sortie.",
         specs: {
@@ -163,11 +163,11 @@ const products = [
         originalPrice: 799,
         rating: 4.9,
         reviewCount: 112,
-        image: "https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?w=600&auto=format&fit=crop&q=80",
+        image: "apple-watch-ultra2.jpg",
         gallery: [
-            "https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?w=600&auto=format&fit=crop&q=80",
-            "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=600&auto=format&fit=crop&q=80",
-            "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&auto=format&fit=crop&q=80"
+            "apple-watch-ultra2.jpg",
+            "galaxy-watch6-classic.jpg",
+            "airpods-max.png"
         ],
         description: "La montre de sport et d'aventure ultime est encore plus performante. Équipée de la puce S9 SiP, d'un bouton Action personnalisable, du geste double-toucher et d'un boîtier en titane ultra-léger avec écran Retina Always-On.",
         specs: {
@@ -189,10 +189,10 @@ const products = [
         originalPrice: 399,
         rating: 4.7,
         reviewCount: 167,
-        image: "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=600&auto=format&fit=crop&q=80",
+        image: "galaxy-watch6-classic.jpg",
         gallery: [
-            "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=600&auto=format&fit=crop&q=80",
-            "https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?w=600&auto=format&fit=crop&q=80"
+            "galaxy-watch6-classic.jpg",
+            "apple-watch-ultra2.jpg"
         ],
         description: "Affichez votre style avec une lunette rotative physique et des cadrans personnalisés. Suivez vos entraînements avec des zones de fréquence cardiaque personnalisées et analysez votre composition corporelle.",
         specs: {
@@ -318,6 +318,16 @@ let currentSort = 'featured';
 let activeSlideIndex = 0;
 let slideTimer;
 
+const WHATSAPP_NUMBER = '212694350619';
+
+function getWhatsAppOrderLink(product) {
+    const currentUrl = new URL(window.location.href);
+    currentUrl.hash = '';
+    currentUrl.searchParams.set('product', product.id);
+    const message = `Bonjour, je suis intéressé(e) par le produit : ${product.name} (${product.price} DH). Voici le lien : ${currentUrl.toString()}`;
+    return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
+}
+
 // Sélecteurs DOM
 document.addEventListener('DOMContentLoaded', () => {
     // Initialisation
@@ -437,26 +447,50 @@ function renderCategories() {
     
     const rawCategories = products.map(p => p.category);
     const uniqueCategories = ['Tous', ...new Set(rawCategories)];
+    const desiredCategoryOrder = ['Tous', 'AirPods', 'casque', 'Chargeurs', 'Écouteurs', 'Batteries Externes', 'Montres Connectées', 'Enceintes'];
+    const sortedCategories = desiredCategoryOrder.filter(cat => uniqueCategories.includes(cat)).concat(uniqueCategories.filter(cat => !desiredCategoryOrder.includes(cat) && cat !== 'Tous' && cat !== 'Accessoires Téléphone'));
     
-    const categoryIcons = {
-        'Tous': '⚡',
-        'AirPods': '🎧',
-        'Écouteurs': '🎵',
-        'Chargeurs': '🔌',
-        'Batteries Externes': '🔋',
-        'Montres Connectées': '⌚',
-        'Enceintes': '🔊',
-        'Accessoires Téléphone': '📱'
+    const categoryImageMap = rawCategories.reduce((map, category, index) => {
+        if (!map[category]) {
+            map[category] = products[index].image;
+        }
+        return map;
+    }, {});
+    const categoryLabelMap = {
+        'Chargeurs': 'chargeures',
+        'Écouteurs': 'casque',
+        'Batteries Externes': 'baf',
+        'casque': 'power bank',
+        'Enceintes': 'ventilateure'
     };
+    categoryImageMap['Tous'] = 'airpods-max.png';
+    categoryImageMap['AirPods'] = 'image copy.png';
+    categoryImageMap['Écouteurs'] = 'image copy 5.png';
+    categoryImageMap['Chargeurs'] = 'image copy 2.png';
+    categoryImageMap['Batteries Externes'] = 'image copy 3.png';
+    categoryImageMap['casque'] = 'image copy 4.png';
+    categoryImageMap['Enceintes'] = 'image copy 6.png';
+    categoryImageMap['Montres Connectées'] = 'image.png';
     
-    categoryContainer.innerHTML = uniqueCategories.map(cat => `
-        <button class="category-card ${currentCategory === cat ? 'active' : ''}" data-category="${cat}">
-            <div class="category-icon-wrapper">
-                <span class="category-icon">${categoryIcons[cat] || '🔌'}</span>
-            </div>
-            <span class="category-name">${cat}</span>
-        </button>
-    `).join('');
+    categoryContainer.innerHTML = sortedCategories.map(cat => {
+        const label = categoryLabelMap[cat] || cat;
+        const isTous = cat === 'Tous';
+        if (isTous) {
+            return `
+                <button class="category-card category-card-tous ${currentCategory === cat ? 'active' : ''}" data-category="${cat}">
+                    <div class="category-name category-name-tous">${label}</div>
+                </button>
+            `;
+        }
+        return `
+            <button class="category-card ${currentCategory === cat ? 'active' : ''}" data-category="${cat}">
+                <div class="category-image-wrapper">
+                    <img src="${categoryImageMap[cat] || categoryImageMap['Tous']}" alt="${cat}" />
+                </div>
+                <div class="category-name">${label}</div>
+            </button>
+        `;
+    }).join('');
     
     categoryContainer.querySelectorAll('.category-card').forEach(btn => {
         btn.addEventListener('click', () => {
@@ -484,13 +518,9 @@ function filterAndSortProducts() {
         filtered = filtered.filter(p => p.category === currentCategory);
     }
     
-    // 2. Filtrage par Onglet (Vedettes, Meilleures Ventes, Nouveautés)
+    // 2. Filtrage par Onglet (Vedettes)
     if (currentTab === 'Vedettes') {
         filtered = filtered.filter(p => p.isFeatured);
-    } else if (currentTab === 'Meilleures Ventes') {
-        filtered = filtered.filter(p => p.isBestSeller);
-    } else if (currentTab === 'Nouveautés') {
-        filtered = filtered.filter(p => p.isNewArrival);
     }
     
     // 3. Barre de recherche
@@ -534,8 +564,6 @@ function renderProductsGrid(items) {
     }
     
     grid.innerHTML = items.map(p => {
-        const hasDiscount = p.originalPrice > p.price;
-        const discountPct = hasDiscount ? Math.round(((p.originalPrice - p.price) / p.originalPrice) * 100) : 0;
         const isWishlisted = wishlist.includes(p.id);
         
         let starHTML = '';
@@ -554,9 +582,6 @@ function renderProductsGrid(items) {
         return `
             <div class="product-card" data-id="${p.id}">
                 <div class="product-badges">
-                    ${p.isBestSeller ? '<span class="badge badge-blue">Top Vente</span>' : ''}
-                    ${p.isNewArrival ? '<span class="badge badge-orange">Nouveau</span>' : ''}
-                    ${hasDiscount ? `<span class="badge badge-red">-${discountPct}%</span>` : ''}
                 </div>
                 
                 <button class="wishlist-btn ${isWishlisted ? 'active' : ''}" onclick="event.stopPropagation(); toggleWishlist(${p.id})">
@@ -588,7 +613,6 @@ function renderProductsGrid(items) {
                     
                     <div class="product-price-row">
                         <div class="price-container">
-                            ${hasDiscount ? `<span class="price-original">${p.originalPrice} DH</span>` : ''}
                             <span class="price-current">${p.price} DH</span>
                         </div>
                         <button class="add-to-cart-btn" onclick="event.stopPropagation(); handleAddToCart(${p.id})">
@@ -596,6 +620,15 @@ function renderProductsGrid(items) {
                                 <path d="M5 12h14"/><path d="M12 5v14"/>
                             </svg>
                         </button>
+                    </div>
+                    <div class="product-card-action-row">
+                        <a href="${getWhatsAppOrderLink(p)}" class="whatsapp-order-btn" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation();">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.472-.148-.672.149-.198.297-.767.967-.94 1.165-.173.198-.345.223-.642.075-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.478-1.761-1.651-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.447-.52.149-.173.198-.297.298-.497.099-.198.05-.372-.025-.52-.075-.149-.672-1.619-.92-2.216-.242-.579-.487-.5-.672-.51l-.573-.01c-.198 0-.52.075-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.096 3.2 5.077 4.487.71.306 1.262.489 1.694.626.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.27-.198-.567-.347Z"/>
+                                <path d="M12 22c-5.523 0-10-4.477-10-10S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10Zm0-18.5c-4.694 0-8.5 3.806-8.5 8.5S7.306 20.5 12 20.5 20.5 16.694 20.5 12 16.694 3.5 12 3.5Z"/>
+                            </svg>
+                            Commander via WhatsApp
+                        </a>
                     </div>
                 </div>
             </div>
@@ -854,12 +887,10 @@ function openProductModal(productId) {
                 <div class="products-grid" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px;">
                     ${related.map(p => `
                         <div class="product-card" data-id="${p.id}" onclick="openProductModal(${p.id})">
-                            <div class="product-image-box" style="height:160px; padding:12px;">
-                                <img src="${p.image}" alt="${p.name}">
-                            </div>
-                            <div class="product-info" style="padding:12px;">
-                                <h4 style="font-size:0.85rem; margin-bottom:4px; font-weight:600; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;" title="${p.name}">${p.name}</h4>
+                            <div class="product-info" style="padding:16px; display:flex; flex-direction:column; gap:8px; min-height:160px; justify-content:center;">
+                                <h4 style="font-size:0.95rem; margin:0; font-weight:700; line-height:1.3;" title="${p.name}">${p.name}</h4>
                                 <span style="font-size:0.9rem; font-weight:700; color:var(--text-primary);">${p.price} DH</span>
+                                <span style="font-size:0.8rem; color:var(--text-secondary);">${p.category}</span>
                             </div>
                         </div>
                     `).join('')}
@@ -872,25 +903,15 @@ function openProductModal(productId) {
     
     container.innerHTML = `
         <div class="modal-product-grid">
-            <!-- Côté gauche : Galerie d'images -->
             <div class="modal-gallery">
                 <div class="gallery-main">
                     <img id="modal-main-img" src="${product.image}" alt="${product.name}">
                 </div>
-                <div class="gallery-thumbs">
-                    ${product.gallery.map((imgUrl, i) => `
-                        <div class="gallery-thumb ${i === 0 ? 'active' : ''}" onclick="swapModalImage(this, '${imgUrl}')">
-                            <img src="${imgUrl}" alt="${product.name} angle ${i+1}">
-                        </div>
-                    `).join('')}
-                </div>
             </div>
             
-            <!-- Côté droit : Détails & Specs -->
             <div class="modal-content-col">
                 <div class="modal-product-meta">
                     <span class="badge badge-blue">${product.category}</span>
-                    ${product.isBestSeller ? '<span class="badge badge-orange">Top Vente</span>' : ''}
                 </div>
                 
                 <h2 class="modal-product-title">${product.name}</h2>
@@ -902,7 +923,6 @@ function openProductModal(productId) {
                 
                 <div class="modal-product-price">
                     <span class="modal-price-current">${product.price} DH</span>
-                    ${product.originalPrice > product.price ? `<span class="modal-price-original">${product.originalPrice} DH</span>` : ''}
                 </div>
                 
                 <p class="modal-product-desc">${product.description}</p>
@@ -927,6 +947,13 @@ function openProductModal(productId) {
                         </svg>
                         Ajouter au Panier
                     </button>
+                    <a href="${getWhatsAppOrderLink(product)}" class="btn whatsapp-order-btn modal-whatsapp-btn" target="_blank" rel="noopener noreferrer">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" width="18" height="18" style="margin-right:6px;">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.472-.148-.672.149-.198.297-.767.967-.94 1.165-.173.198-.345.223-.642.075-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.478-1.761-1.651-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.447-.52.149-.173.198-.297.298-.497.099-.198.05-.372-.025-.52-.075-.149-.672-1.619-.92-2.216-.242-.579-.487-.5-.672-.51l-.573-.01c-.198 0-.52.075-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.096 3.2 5.077 4.487.71.306 1.262.489 1.694.626.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.27-.198-.567-.347Z" fill="currentColor"/>
+                            <path d="M12 22c-5.523 0-10-4.477-10-10S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10Zm0-18.5c-4.694 0-8.5 3.806-8.5 8.5S7.306 20.5 12 20.5 20.5 16.694 20.5 12 16.694 3.5 12 3.5Z" fill="currentColor"/>
+                        </svg>
+                        Commander via WhatsApp
+                    </a>
                     
                     <button class="modal-wish-btn ${isWish ? 'active' : ''}" onclick="toggleWishlist(${product.id}); updateModalWishState(this, ${product.id});">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="${isWish ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2">
