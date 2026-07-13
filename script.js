@@ -499,7 +499,7 @@ let currentSort = 'featured';
 let activeSlideIndex = 0;
 let slideTimer;
 
-const WHATSAPP_NUMBER = '212694350619';
+const WHATSAPP_NUMBER = '212674494112';
 
 function getWhatsAppOrderLink(product) {
     const imageUrl = getAssetUrl(product.image);
